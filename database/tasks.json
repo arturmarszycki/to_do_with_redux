@@ -1,0 +1,32 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "Example task 1",
+      "important": false,
+      "deadline": "2020-07-01",
+      "done": "2020-01-20"
+    },
+    {
+      "id": 2,
+      "name": "Zdać egzamin z Reduxa",
+      "important": true,
+      "deadline": "2020-02-08",
+      "done": null
+    },
+    {
+      "id": 3,
+      "name": "Example task 2",
+      "important": false,
+      "deadline": "2020-05-15",
+      "done": "2020-01-14"
+    },
+    {
+      "id": 3,
+      "name": "Example task 3",
+      "important": false,
+      "deadline": "2020-05-15",
+      "done": null
+    }
+  ]
+}

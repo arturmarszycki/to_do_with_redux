@@ -5,9 +5,78 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  padding: 0;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+table {
+  width: 90%;
+  text-align: center;
+  margin: 2% auto;
+}
+.tasks-current th, .tasks-current td {
+  border: 1px solid #999;
+  padding: 1% 0;
+}
+h3 {
+  text-align: center;
+  padding-top: 20px;
+}
+button {
+  outline: none;
+  padding: 5px 10px;
+  color: #fff;
+  margin: 0 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.btn_done {
+  border: 1px solid deepskyblue;
+  color: deepskyblue;
+}
+.btn_remove {
+  border: 1px solid red;
+  color: red
+}
+.btn_cancel {
+  border: 1px solid grey;
+  color: grey
+}
+.empty-info {
+  text-align: center;
+  padding: 30px 0;
+}
+.important {
+  color: red;
+}
+.modal-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.modal-remove {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 5px 20px #bbb;
+  background-color: #fff;
+  padding: 30px 60px;
+  text-align: center;
+}
+.modal-remove p {
+  margin-bottom: 20px;
 }
