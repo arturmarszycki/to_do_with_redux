@@ -2,6 +2,7 @@
   "tasks": [
     {
       "id": 1,
+      "begin": "2020-01-01",
       "name": "Example task 1",
       "important": false,
       "deadline": "2020-07-01",
@@ -9,6 +10,7 @@
     },
     {
       "id": 2,
+      "begin": "2020-01-02",
       "name": "Zdać egzamin z Reduxa",
       "important": true,
       "deadline": "2020-02-08",
@@ -16,13 +18,15 @@
     },
     {
       "id": 3,
+      "begin": "2020-01-01",
       "name": "Example task 2",
       "important": false,
       "deadline": "2020-05-15",
       "done": "2020-01-14"
     },
     {
-      "id": 3,
+      "id": 4,
+      "begin": "2020-01-01",
       "name": "Example task 3",
       "important": false,
       "deadline": "2020-05-15",

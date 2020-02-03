@@ -7,7 +7,7 @@ const DoneTask = ({task, remove}) => {
                 {task.name}
             </td>
             <td>
-                <i>zakończone {task.done.toLocaleString()}</i>
+                <i>zakończone {task.done}</i>
             </td>
             <td>
                 <button onClick={() => remove(task.id)} className="btn_remove">Usuń</button>

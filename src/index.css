@@ -37,6 +37,7 @@ button {
   margin: 0 5px;
   cursor: pointer;
   font-size: 12px;
+  background-color: #fff;
 }
 .btn_done {
   border: 1px solid deepskyblue;
@@ -79,4 +80,50 @@ button {
 }
 .modal-remove p {
   margin-bottom: 20px;
+}
+.add-task {
+  text-align: center;
+}
+.add-part {
+  margin: 25px 0;
+  position: relative;
+}
+input {
+  margin: 0 10px;
+  font-size: 14px;
+  outline: none;
+  padding: 0 10px;
+  height: 35px;
+}
+input[type=text] {
+  width: 300px;
+}
+input[type=checkbox] {
+  height: initial;
+}
+input::placeholder {
+  color: #000;
+}
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.btn_add_task {
+  margin-bottom: 20px;
+  border: 1px solid deepskyblue;
+  color: deepskyblue;
+  padding: 8px 25px;
+}
+.validate_msg {
+  color: red;
+  position: absolute;
+  left: 31%;
+  top: calc(100% + 2px);
+  font-size: 12px;
+  display: none;
+}
+.validate #task {
+  border: 1px solid red;
+}
+.validate .validate_msg {
+  display: inline;
 }

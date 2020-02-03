@@ -7,7 +7,7 @@ class Tasks extends React.Component {
         this.props.appStart()
     }
     render() {
-        const {tasks} = this.props;
+        const {tasks, finish, modal, remove} = this.props;
         let active, done;
         if (tasks.length) {
             active = tasks.filter(task => !task.done && task);
@@ -15,8 +15,8 @@ class Tasks extends React.Component {
         }
         return (
             <div className="container">
-                <ActiveList tasks={active} />
-                <DoneList tasks={done} remove={null} />
+                <ActiveList tasks={active} modal={modal} finish={finish} />
+                <DoneList tasks={done} remove={remove} />
             </div>
         )
     }
